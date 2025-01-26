@@ -9,7 +9,7 @@ faces_dir = r"path_of_your_folder_containg_images"
 for i in os.listdir(faces_dir):
     persons.append(i)
 
-classifier = cv2.CascadeClassifier(r"C:\Users\shiva\PycharmProjects\Image_processing\venv\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
+classifier = cv2.CascadeClassifier(r"\haarcascade_frontalface_default.xml")
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('trained_data1.yml')
 
