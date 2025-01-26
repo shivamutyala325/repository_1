@@ -1,1 +1,1 @@
-# repository_1
+Face recognisation using CV2 library
