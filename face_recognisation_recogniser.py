@@ -5,7 +5,7 @@ import os
 persons = []
 today = []
 
-faces_dir = r"C:\Users\shiva\Desktop\seperated_faces"
+faces_dir = r"path_of_your_folder_containg_images"
 for i in os.listdir(faces_dir):
     persons.append(i)
 
