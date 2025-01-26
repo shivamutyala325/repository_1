@@ -5,7 +5,7 @@ import numpy as np
 
 classifier = cv2.CascadeClassifier(r'\haarcascade_frontalface_default.xml')
 persons = []
-data_dir = r"C:\Users\shiva\Desktop\seperated_faces"
+data_dir = r"path_of_folder_containg_images"
 
 
 for person in os.listdir(data_dir):
