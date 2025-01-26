@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 
-classifier = cv2.CascadeClassifier(r'C:\Users\shiva\AppData\Roaming\JetBrains\PyCharmCE2023.1\scratches\haar_face.xml')
+classifier = cv2.CascadeClassifier(r'\haarcascade_frontalface_default.xml')
 persons = []
 data_dir = r"C:\Users\shiva\Desktop\seperated_faces"
 
